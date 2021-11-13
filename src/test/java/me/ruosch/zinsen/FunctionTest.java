@@ -20,8 +20,8 @@ public class FunctionTest {
     /**
      * Unit test for HttpTriggerJava method.
      */
-//    @Test EXCLUDED
-    public void testHttpTriggerJava() throws Exception {
+    @Test
+    public void testHttpTriggerJava() {
         // Setup
         @SuppressWarnings("unchecked")
         final HttpRequestMessage<Optional<String>> req = mock(HttpRequestMessage.class);
@@ -48,6 +48,6 @@ public class FunctionTest {
         final HttpResponseMessage ret = new Function().run(req, context);
 
         // Verify
-        assertEquals(ret.getStatus(), HttpStatus.OK);
+        assertEquals(ret.getStatus(), HttpStatus.BAD_REQUEST);
     }
 }
