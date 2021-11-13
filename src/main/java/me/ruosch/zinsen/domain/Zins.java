@@ -33,28 +33,28 @@ public class Zins {
                 iterations = 200000;
                 break;
             case THREE:
-                iterations = 400000;
+                iterations = 300000;
                 break;
             case FOUR:
-                iterations = 800000;
+                iterations = 400000;
                 break;
             case FIVE:
-                iterations = 1600000;
+                iterations = 500000;
                 break;
             case SIX:
-                iterations = 3200000;
+                iterations = 600000;
                 break;
             case SEVEN:
-                iterations = 6400000;
+                iterations = 700000;
                 break;
             case EIGHT:
-                iterations = 12800000;
+                iterations = 800000;
                 break;
             case NINE:
-                iterations = 25600000;
+                iterations = 900000;
                 break;
             case TEN:
-                iterations = 51200000;
+                iterations = 1000000;
                 break;
             default:
                 iterations = 0;
