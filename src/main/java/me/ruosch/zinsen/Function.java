@@ -31,7 +31,7 @@ public class Function {
                     authLevel = AuthorizationLevel.ANONYMOUS)
                     HttpRequestMessage<Optional<String>> request,
             final ExecutionContext context) {
-        context.getLogger().info("Java HTTP trigger processed a request.");
+//        context.getLogger().info("Java HTTP trigger processed a request.");
 
         // Parse query parameter
         final String param1 = request.getQueryParameters().get("period");
