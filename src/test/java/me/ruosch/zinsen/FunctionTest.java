@@ -20,7 +20,7 @@ public class FunctionTest {
     /**
      * Unit test for HttpTriggerJava method.
      */
-    @Test
+//    @Test EXCLUDED
     public void testHttpTriggerJava() throws Exception {
         // Setup
         @SuppressWarnings("unchecked")
