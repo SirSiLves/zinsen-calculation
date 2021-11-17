@@ -22,39 +22,41 @@ public class Zins {
     }
 
     private void setIteration() {
+        System.out.println(laufzeit);
+
         switch (laufzeit) {
             case INDEFINITE:
-                iterations = 100;
+                iterations = 2;
                 break;
             case ONE:
-                iterations = 100000;
+                iterations = 10;
                 break;
             case TWO:
-                iterations = 200000;
+                iterations = 100;
                 break;
             case THREE:
-                iterations = 300000;
+                iterations = 10000;
                 break;
             case FOUR:
-                iterations = 400000;
+                iterations = 100000;
                 break;
             case FIVE:
-                iterations = 500000;
+                iterations = 1000000;
                 break;
             case SIX:
-                iterations = 600000;
+                iterations = 10000000;
                 break;
             case SEVEN:
-                iterations = 700000;
+                iterations = 100000000;
                 break;
             case EIGHT:
-                iterations = 800000;
+                iterations = 200000000;
                 break;
             case NINE:
-                iterations = 900000;
+                iterations = 300000000;
                 break;
             case TEN:
-                iterations = 1000000;
+                iterations = 500000000;
                 break;
             default:
                 iterations = 0;
